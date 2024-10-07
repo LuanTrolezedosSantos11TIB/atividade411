@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: rgb(146, 53, 53);
+    height: 6rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: rgb(252, 233, 233);
+}
+
+h1 {
+    color: rgb(231, 131, 131);
+}
+
+main {
+    padding: 1rem;
+}
+
+.primeira {
+    display: flex;
+    align-items: center;
+    max-width: 800px;
+    margin: 1rem auto;
+}
+
+.primeira p {
+        max-width: 60%;
+        margin-right: 1rem;
+}
+
+.primeira img {
+    width: 13rem;
+    height: auto;
+}
+
+.segunda {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(248, 226, 226);
+    height: 25rem;
+    margin: 2rem;
+}
+
+.segunda img {
+    width: 13rem;
+    height: auto;
+    margin: 0.5rem;
+}
+
+.segunda p {
+    max-width: 20rem;
+}
+
+.terceira {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.terceira img {
+    width: 13rem;
+    height: auto;
+    margin: 0.7rem;
+}
